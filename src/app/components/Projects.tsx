@@ -80,7 +80,7 @@ function ProjectTags({ tags }: ProjectTagsProps) {
 
 interface ProjectCardProps {
   title: string;
-  description: string;
+  description: React.ReactElement | string;
   tags: ProjectTags;
   link?: string;
 }
@@ -99,15 +99,12 @@ function ProjectCard({ title, description, tags, link }: ProjectCardProps) {
           <CardTitle className="text-base">
             <ProjectLink title={title} link={link} />
           </CardTitle>
-          <CardDescription
-            className="text-pretty font-mono text-xs print:text-[10px]"
-            aria-label="Project description"
-          >
-            {description}
-          </CardDescription>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex">
+      <CardContent className="my-3 flex flex-col">
+        <div className="mt text-pretty font-mono text-xs text-neutral-800 ">
+          {description}
+        </div>
         <ProjectTags tags={tags} />
       </CardContent>
     </Card>
@@ -125,7 +122,7 @@ export function Projects({ projects }: ProjectsProps) {
   return (
     <Section className="print-force-new-page scroll-mb-16 print:space-y-4 print:pt-12">
       <h2 className="text-xl font-bold" id="side-projects">
-        Side projects
+        Along my Journey
       </h2>
       <div
         className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3"
@@ -141,7 +138,7 @@ export function Projects({ projects }: ProjectsProps) {
               title={project.title}
               description={project.description}
               tags={project.techStack}
-              link={"link" in project ? project.link.href : undefined}
+              link={undefined}
             />
           </article>
         ))}

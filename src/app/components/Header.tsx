@@ -169,10 +169,12 @@ export function Header() {
         />
       </div>
 
-      <Avatar className="size-28" aria-hidden="true">
+      <Avatar className="size-28 " aria-hidden="true">
         <AvatarImage
           alt={`${RESUME_DATA.name}'s profile picture`}
           src={RESUME_DATA.avatarUrl}
+          loading="eager"
+          className="-translate-x-1 translate-y-6 scale-150"
         />
         <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
       </Avatar>

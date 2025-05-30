@@ -9,233 +9,389 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Isaac Katongole",
+  initials: "IK",
+  location: "Kampala, Uganda, EAT",
+  locationLink: "https://www.google.com/maps/place/kampala",
   about:
     "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
   summary: (
     <>
       Frontend-focused Full Stack Engineer specializing in high-performance
-      React applications, scalable Node.js services, and real-time collaboration
-      systems. Experienced in technical architecture design and remote team
-      leadership.
+      React/Nextjs applications, scalable Node.js services, and real-time
+      collaboration. Experienced in cloud-native tools like Firebase, AWS,
+      Docker and Ngnix.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl:
+    "https://avatars.githubusercontent.com/u/87535414?s=400&u=088b584acfd7e432d602f04b3b5803e4db9211f3&v=4",
+  personalWebsiteUrl: "https://katongole-isaac.github.io/",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "katongolelsaac78@gmail.com",
+    tel: "+256705465771",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/katongole-isaac",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/katongole-isaac/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/zac_codes",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Makerere University",
+      degree: "Bachelor's Degree in Computer Science",
+      start: "2019",
+      end: "2022",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote", "React", "Next.js", "TypeScript", "Node.js"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description: (
-        <>
-          Leading technical architecture of a blockchain-based film funding
-          platform.
-          <ul className="list-inside list-disc">
-            <li>
-              Architecting migration from CRA to Next.js for improved
-              performance, SEO, and DX
-            </li>
-            <li>
-              Established release process enabling faster deployments and
-              reliable rollbacks
-            </li>
-            <li>
-              Implementing system-wide monitoring and security improvements
-            </li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "Fiftyskills",
+      link: "https://fiftyskills.com/",
       badges: [
-        "Remote",
-        "React",
+        "Freelancer/Upwork",
+        "Next.js",
         "TypeScript",
         "Node.js",
-        "GraphQL",
-        "Tailwind CSS",
+        "Firebase",
       ],
-      title: "Senior Full Stack Developer",
+      title: "Fullstack Developer",
+      logo: ConsultlyLogo,
+      start: "",
+      end: "2025",
+      description: (
+        <>
+          React developer migrating a Vanilla JS and CSS website to a Next.js
+          App Router architecture
+          <ul className="list-inside list-disc">
+            <li>
+              Integrated Firebase authentication into a Next.js App Router
+              project for secure user login{" "}
+            </li>
+            <li>
+              Refactored legacy Vanilla JS code into reusable React components
+              for improved scalability
+            </li>
+            <li>
+              Enhanced performance by optimizing images and animations with lazy
+              loading
+            </li>
+          </ul>
+        </>
+      ),
+    },
+    {
+      company: "Sum1 Investments",
+      link: "https://sum1investments.co.za/",
+      badges: ["Freelancer/Remote", "React", "TypeScript", "Firebase"],
+      title: "Frontend Developer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "",
+      end: "2025",
       description: (
         <>
-          Senior developer and squad leader for an enterprise agile meeting
-          platform.
+          Frontend Developer to fix bugs and implement new calculation logic for
+          stokvels
           <ul className="list-inside list-disc">
             <li>
-              Built design system with Tailwind CSS, improving development speed
-              and time to market
+              Implement new calculation logic for stokvels account in both user
+              and admin dashboards
             </li>
             <li>
-              Implemented engineering practices: PR automation, code review
-              guidelines, and workflows
+              Refactored code and built features for admins to view results
+              based on updated stokvel calculations.
             </li>
             <li>
-              Open source contributions to Relay DevTools and React i18n tooling
+              Implemented CI/CD pipelines using GitHub Actions workflows to
+              automate deployment to firebase.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote", "React", "TypeScript", "Node.js", "Android", "Kotlin"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Stratcom Limited",
+      link: "https://www.facebook.com/stratcomug/",
+      badges: ["On-Site", "React", "TypeScript", "Node.js"],
+      title: "Software Engineer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "",
+      end: "2023",
       description: (
         <>
-          Successfully transitioned from mobile to full-stack development while
-          leading distributed teams.
           <ul className="list-inside list-disc">
             <li>
-              Led frontend team at Evercast, building real-time platform
-              supporting 30+ users per room with HD streaming and collaboration
-              tools
+              Developed an intuitive UI with Tailwind CSS and Next.js, enhancing
+              SEO.
             </li>
             <li>
-              Developed offline-first Android app for DKMS, improving donor
-              registration process
+              Pioneered API redesign from long polling to WebSockets with
+              Socket.io and WebRTC, enabling real-time communication.
             </li>
             <li>
-              Led development teams across multiple successful client projects
+              Configured Nginx as a load balancer and reverse proxy with SSL
+              certificates to secure backend servers on AWS Lightsail.
             </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: ["On Site", "Android", "Java", "Kotlin"],
-      title: "Android Developer → Lead Android Developer",
+      company: "Azimuth Inc.",
+      link: "#",
+      badges: ["Freelancer/Remote", "React", "Mapbox", "Typescript"],
+      title: "Frontend Developer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "",
+      end: "2023",
       description: (
         <>
-          First Android developer, grew and led a team of 15+ engineers while
-          establishing engineering culture.
           <ul className="list-inside list-disc">
             <li>
-              Developed apps for major Polish companies including LOT, Polskie
-              Radio, and Agora
+              Migrated a PHP web portal to React.js integrating KeplerGL and
+              Mapbox.
             </li>
-            <li>Built and mentored high-performing mobile development team</li>
+            <li>
+              Implemented data caching with Redux to minimize redundant data
+              fetching and optimizing bandwidth.
+            </li>
           </ul>
         </>
       ),
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: ["On Site", "C/C++", "LTE", "Agile"],
-      title: "C/C++ Developer",
+      company: "Makerere AI Labs",
+      link: "https://air.ug/",
+      badges: ["On Site", "Node.js", "Docker", "Typescript"],
+      title: "Full Stack Developer Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description:
-        "Developed software for LTE base stations at enterprise scale, gaining strong fundamentals in software architecture, testing practices, and cross-team collaboration.",
+      start: "",
+      end: "2020",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              Gained expertise in Dockerizing full-stack apps with Docker and
+              Docker Compose.
+            </li>
+            <li>
+              Collaborated in a Scrum team to review code, identify bugs, and
+              implement effective fixes.
+            </li>
+            <li>
+              Redesigned the backend using Test-Driven Development (TDD) with
+              Node.js (Express) and Jest to ensure reliable functionality and
+              comprehensive test coverage.
+            </li>
+          </ul>
+        </>
+      ),
     },
   ],
   skills: [
-    "React/Next.js/Remix",
+    "React/Next.js",
     "TypeScript",
     "Tailwind CSS",
-    "Design Systems",
+    "Docker/Docker-compose",
+    "Node.js/Express",
+    "MongoDB",
+    "Restful APIs",
+    "AWS",
+    "Firebase",
     "WebRTC",
     "WebSockets",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "System Architecture",
-    "Remote Team Leadership",
   ],
   projects: [
     {
-      title: "Monito",
-      techStack: ["TypeScript", "Next.js", "Browser Extension", "PostgreSQL"],
-      description:
-        "Browser extension for debugging web applications. Includes taking screenshots, screen recording, E2E tests generation and generating bug reports",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Consultly",
+      title: "Web Apps",
       techStack: [
         "TypeScript",
         "Next.js",
         "Vite",
-        "GraphQL",
+        "Restful APIs",
         "WebRTC",
+        "Redux",
         "Tailwind CSS",
-        "PostgreSQL",
-        "Redis",
+        "AWS",
+        "Firebase",
       ],
-      description:
-        "Platform for online consultations with real-time video meetings and scheduling",
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              <a
+                href="https://blog-seven-wine-40.vercel.app/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Blog Site
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://games-ashen-eight.vercel.app/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Games API
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://dashboard-livid-one.vercel.app/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Dashboard Example
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://forex-sessions-clock.vercel.app/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Forex Session Clock
+              </a>
+            </li>
+          </ul>
+        </>
+      ),
       logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
     },
     {
-      title: "Minimalist CV",
-      techStack: ["TypeScript", "Next.js", "Tailwind CSS"],
-      description:
-        "An open source minimalist, print friendly CV template with a focus on readability and clean design. >9k stars on GitHub",
+      title: "APIs",
+      techStack: [
+        "TypeScript",
+        "Next.js",
+        "MongoDB",
+        "Jest",
+        "Docker/Docker-compose",
+        "Websocket",
+        "JWT",
+        "Restful APIs",
+      ],
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              <a
+                href="https://github.com/katongole-isaac/we-chat-server"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Chatroom Server
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/katongole-isaac/e-shop-server"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                E-shop Server
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/katongole-isaac/uptime-backend"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Uptime Backend
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://github.com/katongole-isaac/userApi"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                User's API
+              </a>
+            </li>
+          </ul>
+        </>
+      ),
       logo: MonitoLogo,
-      link: {
-        label: "Minimalist CV",
-        href: "https://github.com/BartoszJarocki/cv",
-      },
+    },
+    {
+      title: "Landing Pages",
+      techStack: [
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Light House",
+        "Tailwindcss",
+      ],
+      description: (
+        <>
+          <ul className="list-inside list-disc">
+            <li>
+              <a
+                href="https://singh-delta.vercel.app/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                India client's landing page
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://majestic-chebakia-058f9d.netlify.app/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Gaman landing page
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://katongole-isaac.github.io/easybank/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Easybank Assignment
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://katongole-isaac.github.io/bookmark/"
+                rel="noreferrer noopener"
+                target="_blank"
+                className="hover:underline"
+              >
+                Bookmark Assignment
+              </a>
+            </li>
+          </ul>
+        </>
+      ),
+      logo: MonitoLogo,
     },
   ],
 } as const;
