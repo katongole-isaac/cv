@@ -328,7 +328,7 @@ export const RESUME_DATA = {
                 target="_blank"
                 className="hover:underline"
               >
-                User's API
+                User&apos;s API
               </a>
             </li>
           </ul>
@@ -355,7 +355,7 @@ export const RESUME_DATA = {
                 target="_blank"
                 className="hover:underline"
               >
-                India client's landing page
+                India client&pos;s landing page
               </a>
             </li>
             <li>
